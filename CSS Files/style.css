@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("gilroy-bold-cdnfonts/Gilroy-Light.ttf");
+  font-family: "Gilroy-Bold";
+  src: url("gilroy-bold-cdnfonts/Gilroy-Bold.ttf");
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: yellow; */
+  font-family: "Gilroy-Light";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+#nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav h3 {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+#nav i {
+  font-size: 19px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+#nav h1 {
+  font-weight: 500;
+  font-size: 49px;
+  font-family: "Gilroy-Bold";
+}
+
+#nav button {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+#nav #btn2 {
+  background-color: orangered;
+  color: white;
+}
+
+#main > h1 {
+  color: red;
+  font-size: 140px;
+  font-weight: 2000;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-family: "Gilroy-Light";
+}
+
+img {
+  height: 450px;
+  width: 350px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 20px;
+  font-family: "Gilroy-Bold";
+}
+
+#btm-right {
+  position: absolute;
+  bottom: 75px;
+  right: 15%;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+#btm-rightline {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  font-size: 18px;
+  font-family: "Gilroy-Bold";
+}
+
+#btm-center {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 100px;
+}

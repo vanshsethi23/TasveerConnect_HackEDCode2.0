@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  @font-face {
+    font-family: "Gilroy-Light";
+    src: url("gilroy-bold-cdnfonts/Gilroy-Light.ttf");
+    font-family: "Gilroy-Bold";
+    src: url("gilroy-bold-cdnfonts/Gilroy-Bold.ttf");
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px; 
+  }
+  
+  .background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/Assets_Media/facescan.PNG");
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: "Gilroy-Bold";
+    font-weight: 900;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family:monospace;
+    font-weight: 400;
+  }
+  
+  .upload-btn {
+    margin-bottom: 20px;
+    margin-top: auto;
+    padding: 10px 20px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  label:hover {
+    background-color: #0056b3;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+
+  #webcamBtn {
+    margin-bottom: 20px;
+    margin-top: auto;
+    padding: 10px 20px;
+  }
+  

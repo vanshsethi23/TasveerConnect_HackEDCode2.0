@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: white;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("gilroy-bold-cdnfonts/Gilroy-Light.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("gilroy-bold-cdnfonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: "AeonikTRIAL-Bold";
+    src: url("New Aeonik Trials/AeonikTRIAL-Bold.otf");
+}
+
+@font-face {
+    font-family: "AeonikTRIAL-Light";
+    src: url("New Aeonik Trials/AeonikTRIAL-Light.otf");
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Copperplate", Papyrus, fantasy;
+    padding: 35px 45px;
+  }
+  
+  #nav-part1 {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #nav-part1 h2 {
+    font-size: 35px;
+    font-weight: 500;
+    font-weight: 800;
+  }
+
+  #nav-part1 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 100px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+  }
+  
+  #nav-part1 i {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  
+  #nav-part2 {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav button {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+  }
+  
+  #nav #btn2 {
+    background-color: orangered;
+    color: white;
+  }
+  
+  #nav h4 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Helvetica Neue";
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}

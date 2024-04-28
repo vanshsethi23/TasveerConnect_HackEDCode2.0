@@ -16,4 +16,14 @@ At TasveerConnect, we leverage cutting-edge facial recognition technology to str
 - **Automated Sharing:** Once uploaded, our system directly mails or WhatsApps the images to the people recognized in them.
 - **Effortless Connectivity:** Stay effortlessly connected with your family and friends by sharing memories with ease.
 
+## Technology Used
+
+- **HTML**
+- **CSS**
+- **JS**
+
+## Future Improvements
+
+We are in the process of building the backend for this project. Will update the project (with the backend linked) soon!!
+
 *This project was developed during HackEDCode 2.0 at Elysian 2.0, the annual DesTech Fest of GGSIPU EDC.*

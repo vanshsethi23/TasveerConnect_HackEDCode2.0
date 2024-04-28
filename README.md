@@ -30,3 +30,11 @@ At TasveerConnect, we leverage cutting-edge facial recognition technology to str
 <br>
 <br>
 *Sorry for uploading the files randomly!! I had to do this to host the site using GitHub Pages otherwise it was throwing an error.*
+
+## Demo
+
+You can view the live demo [here](https://vanshsethi23.github.io/TasveerConnect_HackEDCode2.0/).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

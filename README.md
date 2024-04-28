@@ -28,4 +28,5 @@ At TasveerConnect, we leverage cutting-edge facial recognition technology to str
 
 *This project was developed during HackEDCode 2.0 at Elysian 2.0, the annual DesTech Fest of GGSIPU EDC.*
 <br>
-*Sorry for uploading the files at random!! I had to do this to host the site using GitHub Pages otherwise it was throwing an error.*
+<br>
+*Sorry for uploading the files randomly!! I had to do this to host the site using GitHub Pages otherwise it was throwing an error.*
